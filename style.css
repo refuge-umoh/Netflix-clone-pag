@@ -1,0 +1,211 @@
+/* reset  */
+*{
+    padding: 0;
+    margin: 0;
+    /* color: #fff; */
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+
+a:hover{
+    color: white;
+}
+
+/* body */ 
+
+body{
+    background-color: #222;
+}
+
+.Big-image img{
+    max-width: 100%;
+    height: auto;
+    filter: brightness(35%);
+}
+
+.logo{
+    padding: 3%;
+    height:40px;
+}
+
+/* section 1 _header*/
+
+.main-header{
+    position: absolute;
+        z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-self: start;
+}
+
+
+#color{
+    background-color: #e50914;
+}
+
+
+.sign-in{
+    padding: 7px 17px;
+    margin: .8rem;
+    font-size: 20px;
+    border-radius: 5px;
+    align-self: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+/* section 1 */
+
+.h1{
+    font-size: 3.125rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p{
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2{
+    font-size: 1.625rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem auto;
+}
+
+
+.form{
+    display: grid;
+    
+}
+
+.email{
+    padding: 20px  ;
+    min-width:450px;
+    font-size: 16px;
+}
+
+
+.inline{
+    display:flex;
+}
+
+
+.Getstarted{
+    font-size: 1.625rem;
+    min-width:200px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.middle-text{
+    position: absolute;
+    text-align: center; 
+    top: 35%;
+    left: 28%;
+    color: #fff;
+    max-width: 640px;
+    z-index: 2;
+}
+
+
+/* section 2 */
+
+.section-2{
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    border-bottom: 7px solid #222222;
+}
+
+.section-2-text{
+    padding:10%;
+    max-width: 640px;
+}
+
+.section-2-font{
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+
+.section-2-font-2{
+    font-size: 1.1rem;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+
+.section-2-FAQ{
+    background-color: #000;
+    border-bottom: 7px solid #222;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.section-2-FAQ_title{
+    font-size: 3.125rem;
+    font-weight: 400;
+    padding: 20px;
+
+}
+
+
+.section-2-FAQ_list{
+    display: grid;
+}
+
+#e-mail{
+    padding-left: 19.5rem; 
+    padding-bottom:.7rem; 
+ } 
+
+ .section-2-FAQ_list_1{
+    background-color: #222;
+    border-bottom: 5px solid #000;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0px auto;
+    width: 50%;
+
+ }
+
+ /* Footer */
+
+ .footer{
+     background-color: #000;
+     color:  #757575;
+     padding: 2rem;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: .9rem;
+     
+ }
+
+
+ .footerField{
+     padding: 20px;
+     display:flex;
+     justify-content: space-between;
+
+ }
+
+ .footer-links{
+     color:  #757575;
+ }
+
+ /* END  */

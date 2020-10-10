@@ -14,96 +14,107 @@
                 
                 <img src="./Image/netflix-logo.png" class="logo">
                 
-                <a href="#">sign in</a>
+                <a href="#" class="sign-in" id="color">sign in</a>
                 
             </header>
 
            <div class="Big-image">
-                <img src="./Image/large-hero.jpg" >
+                <img src="./Image/New Nf.jpg" >
            </div>
 
-            <div>
-                <h1>unlimited movies, TV shows, and more.</h1>
-                <p>Watch anywhere. Cancel anytime.<p>
-                <p>Ready to watch? Enter your email to create or restart your membership.</p>
-                <form action="form-handler.php" method="get">
-                    <input type="email" name="email" id=""
-                    placeholder="Email address">
-                    <input type="button"  value="GET STARTED">
-                </form>
+            <div class="middle-text">
+                <h1 class="h1">Unlimited movies, TV shows, and more.</h1>
+                <P class="p2">Watch anywhere. Cancel anytime</P>
+                <form action="form-handler.php" method="get" class="form">
+                    <p class="p">Ready to watch? Enter your email to create or restart your membership.</p>
+                    <div class="inline">
+                            <input type="email" name="email" class="email" 
+                            placeholder="Email address">
+                            <a href="#" id="color" class="Getstarted">GET STARTED </a>
+                            <span id="" class="chevron-right-arrow" data-uia=""><svg viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg"><desc>chevron</desc><path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" ></path></svg></span>
+                        </div>
+                 </form>
             </div>
         </section>
-        <section>
-            <h1>Enjoy on your TV.</h1>
-            <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+
+        
+        <section class="section-2">
+            <div class="section-2-text">
+            <h1 class="section-2-font">Enjoy on your TV.</h1>
+            <p class="section-2-font-2">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
             </p>
-            <div>
-                <img src="/Image/tv.png" alt="">
-            </div>
+        </div>
+                <img src="./Image/tv.png" alt="">
         </section>
-        <section>
-            <h1>Download your shows to watch offline.</h1>
-            <p>Save your favorites easily and always have something to watch.</p>
+        <section  class="section-2">
             <img src="./Image/mobile.jpg" alt="">
-        </section>
-        <section>
-            <h1>Watch everywhere</h1>
-            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
-            <img src="./Image/device-pile.png" alt="">
-        </section>
-        <section>
-            <h1>Frequently Asked Questions</h1>
-
-            <div>
-                <a href="#">What is Netflix?</a>7
-                <a href="#">How much does Netflix cost?</a>
-                <a href="#">Where can I watch?</a>
-                <a href="#">How do I cancel?</a>
-                <a href="#">What can I watch on Netflix?</a>
-                <a href="#">Is Netflix good for kids?</a>
+            <div class="section-2-text">
+                <h1 class="section-2-font">Download your shows to watch offline.</h1>
+                <p class="section-2-font-2">Save your favorites easily and always have something to watch.</p>
             </div>
-            <form action="form-handler" method="get">
-                <p>Ready to watch? Enter your email to create or restart your membership.</p>
-
-                <input type="email" name="email" id=""
-                placeholder="Email address">
-                <input type="button" value="GET STARTED">
-            </form>
+        </section>
+        <section class="section-2">
+            <div class="section-2-text">
+                <h1 class="section-2-font">Watch everywhere</h1>
+                <p class="section-2-font-2">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+            </div>
+                    <img src="./Image/device-pile.png" alt="">
         </section>
 
-        <section>
-            <p>Questions? Contact us.</p>
 
-            <div>
-                <div>
-                    <a href="#">FAQ</a>
-                    <a href="#">Media Center</a>
-                    <a href="#">Way to Watch</a>
-                    <a href="#">Cookie Preferences</a>
-                    <a href="#">Speed Test</a>
-                </div>
-                
-                <div>
-                    <a href="#">Help center</a>
-                    <a href="#">Job</a>
-                    <a href="#">Investor Relations</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">Speed Test</a>
-                </div>
-                
-                <div>
-                    <a href="#">Accout</a>
-                    <a href="#">Corporate Information</a>
-                    <a href="#">Netflix Originals</a>
-                    <a href="#">Cookie Preferences</a>
-                    <a href="#">Speed Test</a>
-                </div>
-                <div>
-                    <a href="#">Media Center</a>
-                    <a href="#">Term of use</a>
-                    <a href="#">Legal Notice</a>
-                </div>
+        <section class="section-2-FAQ">
+            <h1 class="section-2-FAQ_title">Frequently Asked Questions</h1>
+
+            <div class="section-2-FAQ_list">
+                <a href="#" class="section-2-FAQ_list_1">What is Netflix?</a>
+                <a href="#" class="section-2-FAQ_list_1">How much does Netflix cost?</a>
+                <a href="#" class="section-2-FAQ_list_1">Where can I watch?</a>
+                <a href="#" class="section-2-FAQ_list_1">How do I cancel?</a>
+                <a href="#" class="section-2-FAQ_list_1">What can I watch on Netflix?</a>
+                <a href="#" class="section-2-FAQ_list_1">Is Netflix good for kids?</a>
             </div>
+            <form action="form-handler.php" method="get" class="form">
+                <p class="p">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="inline" id="e-mail">
+                        <input type="email" name="email" class="email" 
+                        placeholder="Email address" >
+                        <a href="#" id="color" class="Getstarted">GET STARTED</a>
+                </div>
+             </form>
+        </section>
+
+        <section class="footer">
+            <p >Questions? Contact us.</p>
+
+            <nav class="footerField">
+                <ul>
+                    <a href="#" class="footer-links"><li>FAQ</li></a>
+                    <a href="#" class="footer-links"><li>Media Center</li></a>
+                    <a href="#" class="footer-links"><li>Way to Watch</li></a>
+                    <a href="#" class="footer-links"><li>Speed Test</li></a>
+                </ul>
+                
+                <ul>
+                    <a href="#" class="footer-links"><li>Help center</li></a>
+                    <a href="#" class="footer-links"><li>Job</li></a>
+                    <a href="#" class="footer-links"><li>Investor Relations</li></a>
+                    <a href="#" class="footer-links"><li>Privacy</li></a>
+                    <a href="#" class="footer-links"><li>Speed Test</li></a>
+                </ul>
+                
+                <ul>
+                    <a href="#" class="footer-links"><li>Accout</li></a>
+                    <a href="#" class="footer-links"><li>Corporate Information</li></a>
+                    <a href="#" class="footer-links"><li>Netflix Originals</li></a>
+                    <a href="#" class="footer-links"><li>Cookie Preferences</li></a>
+                    <a href="#" class="footer-links"><li>Speed Test</li></a>
+                </ul>
+                <ul>
+                    <a href="#" class="footer-links"><li>Media Center</li></a>
+                    <a href="#" class="footer-links"><li>Term of use</li></a>
+                    <a href="#" class="footer-links"><li>Legal Notice</li></a>
+                </ul>
+            </nav>
             <p>Netflix Nigeria</p>
         </section>
     </main>
